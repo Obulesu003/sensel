@@ -50,17 +50,28 @@ export const Navbar = () => {
           border: 1px solid rgba(255,255,255,0.1);
           border-radius: 12px;
           padding: 0.5rem;
-          margin-top: 1rem;
+          padding-top: 1.5rem; /* Extra padding at top to bridge the gap */
+          margin-top: 0; /* Remove gap - use padding instead */
           box-shadow: 0 10px 40px rgba(0,0,0,0.5);
           z-index: 1001;
           flex-direction: column;
           gap: 2px;
         }
+        /* Invisible bridge to maintain hover */
+        .dropdown::after {
+          content: '';
+          position: absolute;
+          top: 100%;
+          left: 0;
+          width: 100%;
+          height: 20px; /* Bridge height */
+          background: transparent;
+        }
         /* Triangle indicator */
         .dropdown-content::before {
           content: '';
           position: absolute;
-          top: -6px;
+          top: 6px;
           left: 50%;
           transform: translateX(-50%);
           width: 0;
