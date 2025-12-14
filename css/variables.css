@@ -1,0 +1,62 @@
+:root {
+  /* --- Typography --- */
+  --font-main: 'Manrope', sans-serif;
+  --font-display: 'Manrope', sans-serif;
+
+  /* --- Premium Palette (Dark Mode Default/Hybrid) --- */
+  /* Backgrounds */
+  --color-bg-body: #09090b;
+  /* Zinc 950 - Deepest padding */
+  --color-bg-surface: #18181b;
+  /* Zinc 900 - Cards/Sections */
+  --color-bg-surface-2: #27272a;
+  /* Zinc 800 - Borders/Hover */
+  --color-bg-glass: rgba(24, 24, 27, 0.6);
+
+  /* Text */
+  --color-text-main: #ffffff;
+  --color-text-secondary: #a1a1aa;
+  /* Zinc 400 */
+  --color-text-muted: #71717a;
+  /* Zinc 500 */
+  --color-text-inverse: #09090b;
+
+  /* Brand Accents */
+  --color-brand-primary: #3b82f6;
+  /* Reset to Blue for buttons/highlights */
+  --color-brand-white: #ffffff;
+  /* Use this for white text */
+  --color-brand-accent: #60a5fa;
+  /* Lighter Blue */
+  --color-brand-warning: #fbbf24;
+  /* Amber 400 */
+  --color-success: #34d399;
+  /* Emerald 400 */
+
+  /* Gradients */
+  --gradient-hero: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+  --gradient-glow: radial-gradient(circle at center, rgba(59, 130, 246, 0.45) 0%, rgba(0, 0, 0, 0) 70%);
+
+  /* --- Layout & Spacing --- */
+  --header-height: 80px;
+  --radius-sm: 4px;
+  --radius-md: 12px;
+  --radius-lg: 24px;
+  /* Larger, smoother corners */
+  --radius-full: 9999px;
+
+  --container-width: 1400px;
+  /* Wider container for modern feel */
+  --spacing-section: 120px;
+  /* More breathable */
+
+  /* --- Effects --- */
+  --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.3);
+  --shadow-glow: 0 0 20px rgba(59, 130, 246, 0.2);
+
+  --backdrop-blur: blur(16px);
+}
+
+/* Light Mode Overrides (if we want hybrid, but targeting Dark Mode for "Premium Tech" feel) */
+/* keeping it dark-first for now as per "High-End Tech" description */

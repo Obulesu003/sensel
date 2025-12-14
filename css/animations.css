@@ -1,0 +1,94 @@
+/* --- Animations --- */
+
+/* Text Reveal (Mask Up) */
+@keyframes maskUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.reveal-text {
+    overflow: hidden;
+    /* Mask */
+    display: block;
+}
+
+.reveal-text span {
+    display: block;
+    transform: translateY(100%);
+    opacity: 0;
+    animation: maskUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    /* Custom ease */
+}
+
+/* Fade In */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-out forwards;
+}
+
+/* Scroll Triggered Class */
+.scroll-animate {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease-out, transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.scroll-animate.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Stagger Delays */
+.delay-100 {
+    animation-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.delay-200 {
+    animation-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+.delay-300 {
+    animation-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+
+.delay-400 {
+    animation-delay: 0.4s;
+    transition-delay: 0.4s;
+}
+
+.delay-500 {
+    animation-delay: 0.5s;
+    transition-delay: 0.5s;
+}
+
+/* Image Parallax Container */
+.parallax-container {
+    overflow: hidden;
+}
+
+.parallax-img {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-out;
+}

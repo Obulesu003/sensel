@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Industrial Solution | Sensel</title>
+    <link rel="stylesheet" href="../../css/main.css">
+</head>
+
+<body data-solution-key="industrial">
+    <div id="app"></div>
+    <script type="module">
+        import { IndustrialTemplate } from '../../js/components/industrial-template.js';
+        import { initNavbar } from '../../js/components/navbar.js';
+
+        document.querySelector('#app').innerHTML = IndustrialTemplate();
+        initNavbar();
+    </script>
+</body>
+
+</html>

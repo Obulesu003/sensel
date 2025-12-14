@@ -1,0 +1,99 @@
+/* Components - Enterprise Style */
+
+/* Buttons */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 2rem;
+    border-radius: var(--radius-md);
+    /* Sharper */
+    font-weight: 500;
+    transition: all var(--transition-fast);
+    font-size: 0.95rem;
+    letter-spacing: 0.01em;
+}
+
+.btn-primary {
+    background: var(--color-brand-accent);
+    color: white;
+}
+
+.btn-primary:hover {
+    background: var(--color-brand-primary);
+    box-shadow: var(--shadow-md);
+}
+
+.btn-outline {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+.btn-outline:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.btn-outline-dark {
+    border: 1px solid var(--color-bg-surface-2);
+    color: var(--color-text-main);
+}
+
+.btn-outline-dark:hover {
+    background: var(--color-bg-surface);
+    border-color: var(--color-brand-accent);
+}
+
+
+/* Cards */
+.card-enterprise {
+    background: white;
+    border: var(--border-light);
+    border-radius: var(--radius-lg);
+    padding: 2.5rem;
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+    position: relative;
+    overflow: hidden;
+}
+
+.card-enterprise:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-xl);
+    border-color: var(--color-brand-accent);
+}
+
+/* Typography Overrides */
+h1,
+h2,
+h3 {
+    color: var(--color-brand-primary);
+    letter-spacing: -0.02em;
+}
+
+p {
+    color: var(--color-text-muted);
+}
+
+/* Layout Utils */
+.container {
+    max-width: var(--container-max);
+    margin: 0 auto;
+    padding: 0 var(--space-md);
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .grid-2 {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+.section-padding {
+    padding: 6rem 0;
+}
