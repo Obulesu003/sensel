@@ -4,7 +4,7 @@ export const BentoGrid = () => {
 
     const renderCard = (key, sizeClass) => {
         const data = solutionsData[key];
-        const link = `solutions/${key}/index.html`;
+        const link = `/sensel/solutions/${key}/index.html`;
         const themeLabel = data.theme.toUpperCase() + ' SOLUTION';
 
         return `

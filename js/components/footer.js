@@ -34,11 +34,11 @@ export const Footer = () => {
             <div>
               <h4 style="margin-bottom: 1.25rem; font-weight: 600; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-text-muted);">Solutions</h4>
               <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.75rem;">
-                <li><a href="solutions/work-hour-meter/index.html" style="color: rgba(255,255,255,0.7); transition: color 0.2s; font-size: 0.95rem;" onmouseover="this.style.color='white'" onmouseout="this.style.color='rgba(255,255,255,0.7)'">Work Hour Meter</a></li>
-                <li><a href="solutions/solar/index.html" style="color: rgba(255,255,255,0.7); transition: color 0.2s; font-size: 0.95rem;" onmouseover="this.style.color='white'" onmouseout="this.style.color='rgba(255,255,255,0.7)'">Solar Tracking</a></li>
-                <li><a href="solutions/fleet/index.html" style="color: rgba(255,255,255,0.7); transition: color 0.2s; font-size: 0.95rem;" onmouseover="this.style.color='white'" onmouseout="this.style.color='rgba(255,255,255,0.7)'">Fleet Management</a></li>
-                <li><a href="solutions/industrial/index.html" style="color: rgba(255,255,255,0.7); transition: color 0.2s; font-size: 0.95rem;" onmouseover="this.style.color='white'" onmouseout="this.style.color='rgba(255,255,255,0.7)'">Industrial / Hazardous</a></li>
-                <li><a href="solutions/cement/index.html" style="color: rgba(255,255,255,0.7); transition: color 0.2s; font-size: 0.95rem;" onmouseover="this.style.color='white'" onmouseout="this.style.color='rgba(255,255,255,0.7)'">Cement & Mining</a></li>
+                <li><a href="/sensel/solutions/work-hour-meter/index.html" style="color: rgba(255,255,255,0.7); transition: color 0.2s; font-size: 0.95rem;" onmouseover="this.style.color='white'" onmouseout="this.style.color='rgba(255,255,255,0.7)'">Work Hour Meter</a></li>
+                <li><a href="/sensel/solutions/solar/index.html" style="color: rgba(255,255,255,0.7); transition: color 0.2s; font-size: 0.95rem;" onmouseover="this.style.color='white'" onmouseout="this.style.color='rgba(255,255,255,0.7)'">Solar Tracking</a></li>
+                <li><a href="/sensel/solutions/fleet/index.html" style="color: rgba(255,255,255,0.7); transition: color 0.2s; font-size: 0.95rem;" onmouseover="this.style.color='white'" onmouseout="this.style.color='rgba(255,255,255,0.7)'">Fleet Management</a></li>
+                <li><a href="/sensel/solutions/industrial/index.html" style="color: rgba(255,255,255,0.7); transition: color 0.2s; font-size: 0.95rem;" onmouseover="this.style.color='white'" onmouseout="this.style.color='rgba(255,255,255,0.7)'">Industrial / Hazardous</a></li>
+                <li><a href="/sensel/solutions/cement/index.html" style="color: rgba(255,255,255,0.7); transition: color 0.2s; font-size: 0.95rem;" onmouseover="this.style.color='white'" onmouseout="this.style.color='rgba(255,255,255,0.7)'">Cement & Mining</a></li>
               </ul>
             </div>
             
