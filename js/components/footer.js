@@ -48,7 +48,7 @@ export const Footer = () => {
               <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.75rem;">
                 <li><a href="#" style="color: rgba(255,255,255,0.7); font-size: 0.95rem;">About Us</a></li>
                 <li><a href="#" style="color: rgba(255,255,255,0.7); font-size: 0.95rem;">Careers</a></li>
-                <li><a href="/contact.html" style="color: rgba(255,255,255,0.7); font-size: 0.95rem;">Contact</a></li>
+                <li><a href="./contact.html" style="color: rgba(255,255,255,0.7); font-size: 0.95rem;">Contact</a></li>
                 <li><a href="#" style="color: rgba(255,255,255,0.7); font-size: 0.95rem;">Privacy Policy</a></li>
               </ul>
             </div>

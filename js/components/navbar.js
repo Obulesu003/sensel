@@ -229,7 +229,7 @@ export const Navbar = () => {
         position: relative;
       ">
         <!-- Logo -->
-        <a href="/index.html" style="
+        <a href="./index.html" style="
           font-weight: 800; 
           font-size: 1.25rem; 
           display: flex; 
@@ -254,21 +254,21 @@ export const Navbar = () => {
 
         <!-- Desktop Links -->
         <div class="nav-links-desktop">
-          <a href="/index.html" class="nav-link" style="color: white;">Home</a>
+          <a href="./index.html" class="nav-link" style="color: white;">Home</a>
           
           <div class="dropdown">
             <a href="#" class="dropdown-trigger nav-link" style="color: rgba(255,255,255,0.7); transition: color 0.2s;">Solutions</a>
             <div class="dropdown-content">
-              <a href="/solutions/rechargeable/index.html" class="dropdown-item">Asset Tracker - Rechargeable</a>
-              <a href="/solutions/solar/index.html" class="dropdown-item">Asset Tracker - Solar</a>
-              <a href="/solutions/work-hour/index.html" class="dropdown-item">Work Hour Management</a>
+              <a href="./solutions/rechargeable/index.html" class="dropdown-item">Asset Tracker - Rechargeable</a>
+              <a href="./solutions/solar/index.html" class="dropdown-item">Asset Tracker - Solar</a>
+              <a href="./solutions/work-hour/index.html" class="dropdown-item">Work Hour Management</a>
             </div>
           </div>
           
-          <a href="/index.html#innovation" class="nav-link" style="color: rgba(255,255,255,0.7); transition: color 0.2s;">Innovation</a>
-          <a href="/contact.html" class="nav-link" style="color: rgba(255,255,255,0.7); transition: color 0.2s;">Contact</a>
+          <a href="./index.html#innovation" class="nav-link" style="color: rgba(255,255,255,0.7); transition: color 0.2s;">Innovation</a>
+          <a href="./contact.html" class="nav-link" style="color: rgba(255,255,255,0.7); transition: color 0.2s;">Contact</a>
         
-          <a href="/contact.html" style="
+          <a href="./contact.html" style="
             padding: 0.6rem 1.4rem; font-size: 0.9rem; background: rgba(255,255,255,0.1); 
             color: white; border: 1px solid rgba(255,255,255,0.2); border-radius: 99px; 
             font-weight: 600; text-decoration: none; transition: all 0.2s ease;
@@ -281,22 +281,22 @@ export const Navbar = () => {
 
       <!-- Mobile Full-Screen Overlay -->
       <div class="mobile-nav-overlay">
-         <a href="/index.html" class="mobile-link">Home</a>
+         <a href="./index.html" class="mobile-link">Home</a>
          
          <div style="padding: 1rem 0; border-bottom: 1px solid rgba(255,255,255,0.1);">
            <span style="font-size: 0.9rem; text-transform: uppercase; color: var(--accent); letter-spacing: 0.1em; font-weight: 600;">Solutions</span>
            <div style="margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.5rem;">
-              <a href="/solutions/rechargeable/index.html" class="mobile-sub-link">⚡ Rechargeable Tracker</a>
-              <a href="/solutions/solar/index.html" class="mobile-sub-link">☀️ Solar Tracker</a>
-              <a href="/solutions/work-hour/index.html" class="mobile-sub-link">⏱️ Work Hour Monitor</a>
+              <a href="./solutions/rechargeable/index.html" class="mobile-sub-link">⚡ Rechargeable Tracker</a>
+              <a href="./solutions/solar/index.html" class="mobile-sub-link">☀️ Solar Tracker</a>
+              <a href="./solutions/work-hour/index.html" class="mobile-sub-link">⏱️ Work Hour Monitor</a>
            </div>
          </div>
          
-         <a href="/index.html#innovation" class="mobile-link">Innovation</a>
-         <a href="/contact.html" class="mobile-link">Contact</a>
+         <a href="./index.html#innovation" class="mobile-link">Innovation</a>
+         <a href="./contact.html" class="mobile-link">Contact</a>
          
          <div style="margin-top: 2rem;">
-            <a href="/contact.html" style="
+            <a href="./contact.html" style="
               display: block; text-align: center; padding: 1rem; background: var(--accent); color: white;
               font-weight: 700; border-radius: 8px; text-decoration: none;
             ">Book a Demo</a>
